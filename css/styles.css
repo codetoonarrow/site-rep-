@@ -3,6 +3,10 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -10,14 +14,72 @@ body {
 }
 h1 {
   color: #06365f;
+  font-size: 25px;
 }
 header {
   background-color: #1c5380;
+  padding-bottom: 300px;
+}
+
+.phone {
+  position: absolute;
+  top: 100px;
+  left: 220px;
+}
+
+.logo {
+  position: absolute;
+  top: 203px;
+  right: 386px;
+}
+
+.home {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+}
+
+.google {
+  position: absolute;
+  bottom: 50px;
+  right: 325px;
+}
+
+.appstore {
+  position: absolute;
+  bottom: 50px;
+  right: 500px;
 
 }
 
 .last_line {
-  display: inline-block;
   list-style-type: none;
-  text-align: center;
+}
+
+.item {
+  display: inline-block;
+  color: #1c5380;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.container {
+ width: 504px;
+ position: absolute;
+ top: 280px;
+ right: 16%;
+}
+
+.description {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  right: 320px;
+  margin-left: 20px;
 }
